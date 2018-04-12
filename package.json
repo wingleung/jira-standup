@@ -1,8 +1,10 @@
 {
   "name": "jira-standup",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "cli tool to quickly show tickets you're assigned to and its impedements",
-  "main": "index.js",
+  "bin": {
+    "jira": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +22,14 @@
   "bugs": {
     "url": "https://github.com/wingleung/jira-standup/issues"
   },
-  "homepage": "https://github.com/wingleung/jira-standup#readme"
+  "homepage": "https://github.com/wingleung/jira-standup#readme",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "cli-table": "^0.3.1",
+    "commander": "^2.15.1",
+    "log-symbols": "^2.2.0",
+    "node-fetch": "^2.1.2",
+    "ora": "^2.0.0",
+    "rc": "^1.2.6"
+  }
 }

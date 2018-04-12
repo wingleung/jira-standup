@@ -16,6 +16,8 @@ Create a config file `.jirarc` to define your Jira url and username
 
 ```
 username=johndoe
+project=yourJiraProject
+jiraUrl=https://jira.url.com/
 ```
 
 ### Usage
