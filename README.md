@@ -2,6 +2,8 @@
 
 > cli tool to quickly show tickets you're assigned to and its impedements.
 
+> **Note:** only works if Jira search is available in your network without authentication
+
 <img src="jira-standup.gif" width="688">
 
 ## Getting Started
