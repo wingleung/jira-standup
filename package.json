@@ -1,6 +1,6 @@
 {
   "name": "jira-standup",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "cli tool to quickly show tickets you're assigned to and its impedements",
   "bin": {
     "jira": "index.js"
