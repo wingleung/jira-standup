@@ -5,6 +5,7 @@ const rc = require('rc');
 
 const log = require('./lib/log');
 const standup = require('./lib/standup');
+const packageJson = require('./package.json');
 
 program.addImplicitHelpCommand = () => {};
 
@@ -18,7 +19,7 @@ if(!config.config) {
 }
 
 program
-    .version('0.0.1');
+    .version(packageJson.version);
 
 program
     .command('standup')
