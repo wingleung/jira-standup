@@ -1,6 +1,8 @@
 # Jira standup
 
-cli tool to quickly show tickets you're assigned to and its impedements.
+> cli tool to quickly show tickets you're assigned to and its impedements.
+
+![myimage-alt-tag](https://github.com/wingleung/jira-standup/blob/master/jira-standup.gif)
 
 ## Getting Started
 
