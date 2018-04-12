@@ -16,7 +16,7 @@ npm i -g jira-standup
 
 ### Configuration
 
-Create a config file `.jirarc` in your project root or home folder
+Create a config file `.jirarc` in your project root or home folder or anywhere in between
 
 ```
 username=johndoe
