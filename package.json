@@ -1,0 +1,24 @@
+{
+  "name": "jira-standup",
+  "version": "1.0.0",
+  "description": "cli tool to quickly show tickets you're assigned to and its impedements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wingleung/jira-standup.git"
+  },
+  "keywords": [
+    "jira",
+    "standup",
+    "cli"
+  ],
+  "author": "Wing Leung <wingleung@vrt.be>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wingleung/jira-standup/issues"
+  },
+  "homepage": "https://github.com/wingleung/jira-standup#readme"
+}
