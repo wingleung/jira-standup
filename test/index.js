@@ -16,3 +16,18 @@ test('getJiraQueryUrl', t => {
     expectedUrl
   );
 });
+
+test('prettyPrintIssue', t => {
+  const issue = {
+    fields: {
+      status: {}
+    }
+  };
+
+  const response = t.notThrows(() => standup.prettyPrintIssue(issue));
+  t.is(response, undefined);
+});
+
+test('prettyPrintResponse', t => {
+  t.truthy(() => standup.prettyPrintResponse());
+});
