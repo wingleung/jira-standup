@@ -1,8 +1,7 @@
 {
   "name": "jira-standup",
   "version": "0.0.8",
-  "description":
-    "cli tool to quickly show tickets you're assigned to and its impedements",
+  "description": "cli tool to quickly show tickets you're assigned to and its impedements",
   "bin": {
     "jira": "index.js"
   },
@@ -14,13 +13,20 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.{js,md}": ["prettier --write", "git add"]
+    "*.{js,md}": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wingleung/jira-standup.git"
   },
-  "keywords": ["jira", "standup", "cli"],
+  "keywords": [
+    "jira",
+    "standup",
+    "cli"
+  ],
   "author": "Wing Leung <wingleung@vrt.be>",
   "license": "MIT",
   "bugs": {
