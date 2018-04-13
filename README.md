@@ -1,5 +1,7 @@
 # Jira standup [![Build Status](https://travis-ci.org/wingleung/jira-standup.svg?branch=master)](https://travis-ci.org/wingleung/jira-standup)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/wingleung/jira-standup.svg)](https://greenkeeper.io/)
+
 > cli tool to quickly show tickets you're assigned to and its impedements.
 
 > **Note:** only works if Jira search is available in your network without authentication
