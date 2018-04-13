@@ -16,7 +16,7 @@ const config = rc('jira', {
 });
 
 if (!config.config) {
-  log.warn(
+  log.warning(
     'config not present, please create a .jirarc file in the project root or your home folder'
   );
 }
