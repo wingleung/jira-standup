@@ -1,4 +1,4 @@
-# Jira standup
+# Jira standup [![Build Status](https://travis-ci.org/wingleung/jira-standup.svg?branch=master)](https://travis-ci.org/wingleung/jira-standup)
 
 > cli tool to quickly show tickets you're assigned to and its impedements.
 

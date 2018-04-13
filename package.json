@@ -7,7 +7,7 @@
     "jira": "index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "ava",
     "precommit": "lint-staged"
   },
   "lint-staged": {
@@ -34,6 +34,7 @@
     "rc": "^1.2.6"
   },
   "devDependencies": {
+    "ava": "^1.0.0-beta.3",
     "husky": "^0.14.3",
     "lint-staged": "^7.0.4",
     "prettier": "^1.12.0"
