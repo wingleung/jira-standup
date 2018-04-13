@@ -6,6 +6,9 @@
   "bin": {
     "jira": "index.js"
   },
+  "engines": {
+    "node": ">=6"
+  },
   "scripts": {
     "test": "ava",
     "precommit": "lint-staged"
