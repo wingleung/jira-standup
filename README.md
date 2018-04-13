@@ -1,6 +1,4 @@
-# Jira standup [![Build Status](https://travis-ci.org/wingleung/jira-standup.svg?branch=master)](https://travis-ci.org/wingleung/jira-standup)
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/wingleung/jira-standup.svg)](https://greenkeeper.io/)
+# Jira standup [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Greenkeeper badge](https://badges.greenkeeper.io/wingleung/jira-standup.svg)](https://greenkeeper.io/)
 
 > cli tool to quickly show tickets you're assigned to and its impedements.
 
@@ -35,3 +33,8 @@ jira standup
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+[npm-url]: https://www.npmjs.com/package/jira-standup
+[npm-image]: https://img.shields.io/npm/v/jira-standup.svg
+[travis-url]: https://travis-ci.org/wingleung/jira-standup
+[travis-image]: https://travis-ci.org/wingleung/jira-standup.svg?branch=master
