@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/wingleung/jira-standup#readme",
   "dependencies": {
-    "chalk": "^2.3.2",
+    "chalk": "^4.0.0",
     "cli-table": "^0.3.1",
     "commander": "^2.15.1",
     "log-symbols": "^3.0.0",
